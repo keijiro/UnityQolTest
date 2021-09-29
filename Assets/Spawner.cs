@@ -1,9 +1,4 @@
-using System;
 using UnityEngine;
-
-// InspectorOrder
-//  InspectorSort.ByValue/ByName
-//  InspectorSortDirection.Ascending/Descending
 
 public enum WeaponType
 {
@@ -12,7 +7,7 @@ public enum WeaponType
     Chainsaw
 }
 
-[Serializable]
+[System.Serializable]
 public struct SpawnInfo
 {
     public Vector3 position;
